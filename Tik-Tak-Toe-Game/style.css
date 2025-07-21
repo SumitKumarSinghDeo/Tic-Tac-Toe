@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #06e1ae;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: #3d06f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+}
+
+.container{
+    height: 70vh;
+    width: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmin;
+}
+
+.game{
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5vmin;
+    border: 0.5rem solid #7b06f8;
+    border-radius: 1rem;
+    background: #2104f9;
+    box-shadow: 0 0 1rem rgba(1, 22, 1, 0.93);
+}
+
+.box{
+    height: 18vh;
+    width: 18vh;
+    border-radius: 1rem;
+    bottom: none;
+    font-size: 8vmin;
+    background: #f0f1f0;
+}
+
+#reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #2905f4;
+    color: #fbf8f8;
+    border-radius: 1rem;
+    bottom: none;
+}
+#reset:hover{
+    background-color: #7b06f8;
+}
+#msg{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f8f8f8;
+}
+#msg-container{
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #2905f4;
+    color: #fbf8f8;
+    border-radius: 1rem;
+    bottom: none;
+}
+#new-btn:hover{
+    background-color: #7b06f8;
+}
+#NewGame{
+    padding: 1rem;
+    font-size: 1.rem;
+    background-color: #2905f4;
+    color: #fbf8f8;
+    border-radius: 1rem;
+    bottom: none;
+}
+#new-btn:hover{
+    background-color: #7b06f8;
+}
+#reset game{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #2905f4;
+    color: #fbf8f8;
+    border-radius: 1rem;
+    bottom: none;
+}
+#reset game:hover{
+    background-color: #7b06f8;
+}
+#reset game{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #2905f4;
+    color: #fbf8f8;
+    border-radius: 1rem;
+    bottom: none;
+}
+#reset game:hover{
+    background-color: #7b06f8;
+}
+    
